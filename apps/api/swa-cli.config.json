@@ -1,0 +1,18 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "swa-test": {
+      "appLocation": "../vite-project",
+      "apiLocation": ".",
+      "outputLocation": "./dist",
+      "apiLanguage": "node",
+      "apiVersion": "18",
+      "run": "npm run dev",
+      "apiBuildCommand": "npm run build --if-present",
+      "appBuildCommand": "npm run build",
+      "appDevserverUrl": "http://localhost:5173",
+      "appName": "my-first-static-web-app",
+      "resourceGroup": "my-first-static-web-app_group"
+    }
+  }
+}
