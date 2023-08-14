@@ -30,6 +30,7 @@ jobs:
           api_location: "/apps/api" # Api source code path - optional
           api_build_command: "npm run build"
           output_location: "dist" # Built app content directory - optional
+          config_file_location: "apps/api"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:

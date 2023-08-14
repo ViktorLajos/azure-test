@@ -6,7 +6,7 @@
       "apiLocation": ".",
       "outputLocation": "./dist",
       "apiLanguage": "node",
-      "apiVersion": "18",
+      "apiVersion": "16",
       "run": "npm run dev",
       "apiBuildCommand": "npm run build --if-present",
       "appBuildCommand": "npm run build",

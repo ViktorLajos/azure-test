@@ -1,0 +1,21 @@
+{
+	"platform": {
+		"apiRuntime": "node:16"
+	},
+	"auth": {
+		"identityProviders": {}
+	},
+	"routes": [
+		{
+			"route": "/*",
+			"headers": {
+				"cross-origin-embedder-policy": "require-corp",
+				"cross-origin-opener-policy": "same-origin"
+			}
+		}
+	],
+	"navigationFallback": {
+		"rewrite": "index.html",
+		"exclude": ["/images/*.{png,jpg,gif}", "/css/*", "/scripts/*"]
+	}
+}
