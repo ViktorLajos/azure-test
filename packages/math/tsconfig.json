@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+
+
+    "isolatedModules": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+
+    "outDir": "dist",
+    "rootDir": "src",
+  },
+  "include": ["src"],
+}

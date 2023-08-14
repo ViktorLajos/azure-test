@@ -1,0 +1,16 @@
+{
+	"name": "math",
+	"private": true,
+	"version": "0.0.0",
+	"main":"dist/index.js",
+	"scripts": {
+	  "dev": "tsc -w",
+	  "build": "tsc"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+	  "typescript": "^5.1.6"
+	}
+  }
+  
